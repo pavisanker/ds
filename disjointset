@@ -66,8 +66,8 @@ graph->edge[1].dest = 2;
 graph->edge[2].src = 0;
 graph->edge[2].dest = 2;
 if (isCycle(graph))
-printf(“Graph contains cycle”);
+printf("Graph contains cycle");
 else
-printf(“Graph doesn’t contain cycle”);
+printf("Graph doesn’t contain cycle");
 return 0;
 }
